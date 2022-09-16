@@ -10,6 +10,5 @@
         android:font="@font/coolveticargit"
         android:fontWeight="200"
         android:fontStyle="italic">
-
     </font>
 </font-family>

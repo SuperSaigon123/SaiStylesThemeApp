@@ -3,7 +3,7 @@
     <dimen name="textViewWidth">150dp</dimen>
     <dimen name="textViewHeight">50dp</dimen>
     <dimen name="editTextWidth">300dp</dimen>
-    <dimen name="editTextHeight">60dp</dimen>
+    <dimen name="editTextHeight">100dp</dimen>
     <dimen name="bottomMargin">15dp</dimen>
     <dimen name="screenMargin">10dp</dimen>
     <dimen name="topPadding">10dp</dimen>
