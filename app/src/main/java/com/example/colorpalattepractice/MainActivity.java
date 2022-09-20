@@ -8,6 +8,9 @@ import android.widget.EditText;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.view.ViewGroup.MarginLayoutParams;
+import java.lang.Object;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,9 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
         newText = findViewById(R.id.helloText);
         newEdit = findViewById(R.id.editTest);
-    }
-
-    public void shrinkTextMargin(){
         
     }
 }

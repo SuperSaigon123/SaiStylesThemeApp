@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingRight="@dimen/screenMargin"
-    android:paddingLeft="@dimen/screenMargin"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".SecondScreen">
 
     <TextView
         style="@style/Theme.newFontStyle"
@@ -19,6 +18,7 @@
         android:textSize="@dimen/fontSize"
         android:id="@+id/helloText"
         android:layout_marginBottom="@dimen/bottomMargin"
+        android:layout_gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,11 +29,11 @@
         android:id="@+id/newButton"
         android:layout_width="@dimen/buttonWidth"
         android:layout_height="@dimen/buttonHeight"
-        android:layout_marginStart="16dp"
         android:paddingBottom="@dimen/bottomPadding"
         android:text="Button"
         android:textSize="@dimen/fontSmall"
         android:fontFamily="@font/newfontfamily"
+        android:layout_gravity="center"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,6 +48,7 @@
         android:paddingBottom="@dimen/topPadding"
         android:text="Butoon"
         android:textSize="@dimen/fontSmall"
+        android:layout_gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.831"
@@ -64,11 +65,11 @@
         android:text="Test this box: "
         android:textSize="@dimen/fontLarge"
         android:id="@+id/editTest"
+        android:layout_gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.337" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
