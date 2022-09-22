@@ -2,7 +2,6 @@ package com.example.colorpalattepractice;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.EditText;
@@ -19,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
     Button butoon;
     TextView newText;
     EditText newEdit;
-    int count = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,17 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
         newText = findViewById(R.id.helloText);
         newEdit = findViewById(R.id.editTest);
-    }
-
-    public void counter(){
-        count++;
-    }
-
-    public void switchScreens(View view) {
-        newText.setText(count);
-        String name = newEdit.getText().toString();
-        Intent intent = new Intent(this, SecondScreen.class);
-        intent.putExtra("NAME", name);
-        startActivity(intent);
+        
     }
 }
