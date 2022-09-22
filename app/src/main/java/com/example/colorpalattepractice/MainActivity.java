@@ -43,5 +43,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SecondScreen.class);
         intent.putExtra("NAME", name);
         startActivity(intent);
+        
     }
 }
