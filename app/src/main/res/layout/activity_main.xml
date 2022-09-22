@@ -48,6 +48,7 @@
         android:paddingBottom="@dimen/topPadding"
         android:text="Butoon"
         android:textSize="@dimen/fontSmall"
+        android:onClick="switchScreens"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.831"
